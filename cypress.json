@@ -1,0 +1,11 @@
+{
+    "reporter": "@reportportal/agent-js-cypress",
+    "reporterOptions": {
+      "endpoint": "https://reportportal.epam.com/api/v1",
+      "token": "819e5c49-33cb-440d-ae47-c99690606735",
+      "launch": "maryana_piatrova_TEST_EXAMPLE",
+      "project": "maryana_piatrova_personal",
+      "description": "REPORT_PORTAL_DEMO",
+      "parallel": true
+    }
+  }
