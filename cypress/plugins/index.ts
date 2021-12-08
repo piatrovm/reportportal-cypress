@@ -1,3 +1,3 @@
-import registerReportPortalPlugin from '@reportportal/agent-js-cypress/lib/plugin';
+const registerReportPortalPlugin = require('@reportportal/agent-js-cypress/lib/plugin');
 
-exports = (on: any) => registerReportPortalPlugin(on);
+module.exports = (on) => registerReportPortalPlugin(on);
